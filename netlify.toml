@@ -10,11 +10,11 @@
   #  from = "/*"
   #  to = "/index.html"
   #  status = 200
-  [[headers]]
-  for = "/assets/*"
-  values = [
-    "Content-Type: application/javascript",
-  ]
+  #[[headers]]
+  #for = "/assets/*"
+  #values = [
+  #"Content-Type: application/javascript",
+  #]
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
