@@ -3,3 +3,14 @@
 
 /assets/*.js
   Content-Type: application/javascript
+
+/images/*
+  Content-Type: image/png
+/images/*.jpg
+  Content-Type: image/jpeg
+/images/*.gif
+  Content-Type: image/gif
+/images/*.svg
+  Content-Type: image/svg+xml
+/styles/*
+  Content-Type: text/css
