@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       external: ['react-router-dom'],
-      input: './index.html',
+      input: './public/index.html',
     },
   },
   base: './',
