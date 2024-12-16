@@ -12,4 +12,7 @@ export default defineConfig({
     },
   },
   base: './',
+  resolve: {
+    extensions: ['.js', '.jsx'], // Include .js and .jsx extensions
+  },
 })
