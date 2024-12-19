@@ -3,8 +3,10 @@
   Content-Type: multipart/form-data; boundary=ExampleBoundaryString
 
 
-/assets/*.jsx
+/assets/*.js
+/assets/*.css
   Content-Type: application/javascript
+  Content-Type: application/css
 
 /images/*
   Content-Type: image/png
